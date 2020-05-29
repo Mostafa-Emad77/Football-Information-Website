@@ -1,0 +1,28 @@
+body {
+    background-image: url("Images/Menu.gif");
+    background-repeat: no-repeat;
+    background-size: cover ;
+background-position: center center;
+background-attachment: fixed;
+}
+
+
+h1{
+    color: red;
+}
+div.form{
+    width:100% ;
+ text-align: center;
+ border: 3px ridge rgb(34, 109, 5);
+ border-radius: 5px;
+margin: 60px 345px 355px 0px;
+background-color: beige;
+opacity: 0.9;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-weight: bolder;
+    color: darkblue;
+}

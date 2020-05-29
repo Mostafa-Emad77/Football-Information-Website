@@ -1,0 +1,162 @@
+@media only screen and (orientation: landscape) {
+    body{
+background-color: rgb(211, 207, 207);        
+    }
+}
+@media only screen and (max-width: 800px) {
+  img{
+    width: 100%;
+  height: auto;
+  }
+  img.img1{ 
+    width: 100%;
+  height: auto;
+}
+img.img2{width: 100%;
+  height: auto;
+  display: none;
+  }
+
+img.img3{width: 100%;
+  height: auto;
+  }
+  iframe{
+    width: 100%;
+  height: 75%;
+  }
+  
+
+  
+}
+h1{
+font-size: xx-large;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover 
+{color:red;
+}
+ul {
+  list-style-type: none;
+  margin-top:0px ;
+  padding: 0;
+  background-repeat: no-repeat;
+  
+  color: white;
+
+}
+li{
+display:inline;
+color:white;
+font-size:x-large;
+margin-left: 10px;
+border: 2px ridge rgba(125, 231, 125, 0.623); 
+
+}
+a:visited{
+background-color: rgb(0, 252, 252);
+}
+ 
+a:hover{
+  background-color: rgb(255, 52, 52);
+  
+}
+a:active
+{color: rgb(0, 0, 0);
+
+}
+  img.img1{
+    width: auto;
+    height: auto;
+  }
+  img.img2{
+    float: right;
+    width: 1350px;
+    height: 110px;
+  }
+  img.img3{
+float: right;
+overflow: auto;
+  } 
+  video{
+    width: 100%;
+  height: 75%;
+  }
+  p.p1 {
+font-size: xx-large;
+color: red;
+font-weight: bolder;
+  }
+  div.div1 {
+      font-size: x-large;
+      border:2px ridge red;
+      overflow: auto;
+
+  }
+  #tab1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tab1 td, #tab1 th {
+  border: 1px solid red;
+  padding: 8px;
+}
+
+#tab1 tr:nth-child(odd){background-color:  rgb(79, 81, 189)}
+
+#tab1 tr:hover {background-color:green;}
+
+#tab1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+}
+#tab2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tab2 td, #tab2 th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#tab2 tr:nth-child(odd){background-color:  rgb(114, 114, 114)}
+
+#tab2 tr:hover {background-color:green;}
+
+#tab2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: orange;
+  color: white;
+}
+#tab3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tab3 td, #tab3 th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#tab3 tr:nth-child(odd){background-color:  green}
+
+#tab3 tr:hover {background-color: red;}
+
+#tab3 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: yellow;
+  color: black;
+}
