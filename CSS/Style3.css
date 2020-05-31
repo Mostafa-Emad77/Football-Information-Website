@@ -42,6 +42,7 @@ ul {
   margin-top:0px ;
   padding: 0;
   background-repeat: no-repeat;
+  background-color: rgb(88, 170, 80);
   
   color: white;
 
@@ -50,8 +51,8 @@ li{
 display:inline;
 color:white;
 font-size:x-large;
-margin-left: 10px;
-border: 2px ridge rgba(125, 231, 125, 0.623); 
+margin-left: 5px;
+
 
 }
 a:visited{
